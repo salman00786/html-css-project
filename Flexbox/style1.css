@@ -1,0 +1,33 @@
+body {
+    display: grid;
+    height: 50vh;
+    grid-template-areas: "head head"
+        "nav main"
+        "footer footer";
+    grid-template-columns: 150px 1fr;
+    grid-template-rows: 30px 1fr 30px;
+}
+
+header {
+    background-color: aquamarine;
+    grid-area: head;
+    font-weight: bolder;
+}
+
+nav {
+    background-color: bisque;
+    grid-area: nav;
+    font-weight: bolder;
+}
+
+main {
+    background-color: lightcoral;
+    grid-area: main;
+    font-weight: bolder;
+}
+
+footer {
+    background-color: violet;
+    grid-area: footer;
+    font-weight: bolder;
+}
