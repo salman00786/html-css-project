@@ -9,7 +9,7 @@ body {
 }
 
 header {
-    background-color: aquamarine;
+    background-color: rgb(127, 255, 212);
     grid-area: head;
     font-weight: bolder;
 }
@@ -30,4 +30,5 @@ footer {
     background-color: violet;
     grid-area: footer;
     font-weight: bolder;
+    color: red;
 }
